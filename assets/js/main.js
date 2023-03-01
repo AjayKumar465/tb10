@@ -66,57 +66,11 @@
 		====================================
   	*/
 
-        $('#main-slider').owlCarousel({
-            loop: true,
-            nav: true,
-            items: 1,
-            navText: ['<i class=\'fa fa-angle-left\'></i>', '<i class=\'fa fa-angle-right\'></i>'],
-            dots: false
-        })
-
-        $('#main-slider').on('translate.owl.carousel', function () {
-            $('.slider-text').removeClass('fadeInUp animated').hide();
-        });
-        $('#main-slider').on('translated.owl.carousel', function () {
-            $('.slider-text').addClass('fadeInUp animated').show();
-        });
-
-        $('#main-slider').on('translate.owl.carousel', function () {
-            $('.slider-img').removeClass('fadeInDown animated').hide();
-        });
-        $('#main-slider').on('translated.owl.carousel', function () {
-            $('.slider-img').addClass('fadeInDown animated').show();
-        });
-
-        $('#main-slider').on('translate.owl.carousel', function () {
-            $('.slider-img-two').removeClass('fadeInDown animated').hide();
-        });
-        $('#main-slider').on('translated.owl.carousel', function () {
-            $('.slider-img-two').addClass('fadeInDown animated').show();
-        });
-        
-        $('#main-slider').on('translate.owl.carousel', function () {
-            $('.slider-countdown').removeClass('fadeInUp animated').hide();
-        });
-        $('#main-slider').on('translated.owl.carousel', function () {
-            $('.slider-countdown').addClass('fadeInUp animated').show();
-        });
-        
-        $('#main-slider').on('translate.owl.carousel', function () {
-            $('.cou-slider-img').removeClass('fadeInDown animated').hide();
-        });
-        $('#main-slider').on('translated.owl.carousel', function () {
-            $('.cou-slider-img').addClass('fadeInDown animated').show();
-        });
-
-        
-        
-        
-        $('#th-main-slider').owlCarousel({
-            loop: true,
-            margin: 0,
-            items: 1
-        })
+      $('#th-main-slider').owlCarousel({
+        loop: true,
+        margin: 0,
+        items: 1
+    })
         
         
         $('.holiday-carousel').owlCarousel({
@@ -292,30 +246,8 @@
 			Home 01 02 Page Slider Section
 		====================================
   	*/
-        $('#product-slider-two').owlCarousel({
-            loop: true,
-            nav: true,
-            navText: ['<i class=\'fa fa-angle-left\'></i>', '<i class=\'fa fa-angle-right\'></i>'],
-            dots: false,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                576: {
-                    items: 2
-                },
-                768: {
-                    items: 3
-                },
-                1200: {
-                    items: 4
-                }
-                ,
-                1550: {
-                    items: 5
-                }
-            }
-        })
+       
+
         $('#product-trending-two').owlCarousel({
             loop: true,
             nav: true,
@@ -393,13 +325,7 @@
 			Product Details Page Slider Section
 		=============================================
   	*/
-        $('#lightSlider').lightSlider({
-            gallery: true,
-            item: 1,
-            loop: true,
-            slideMargin: 0,
-            thumbItem: 5
-        });
+       
         
 
         $('#related-product').owlCarousel({
