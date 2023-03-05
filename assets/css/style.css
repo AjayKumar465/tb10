@@ -1043,7 +1043,7 @@ transform: translateY(0px);
   }
   .second-home .wd-header-nav .department .department-sub-list-img,
   .second-home .shape-img {
-    width: 100% !important;
+    width: 60% !important;
   }
 
   #call-to-action {
