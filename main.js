@@ -554,7 +554,7 @@ class TheB10ProductsService {
       } else {
         resultJson[key] = {
           title: value.title,
-          data: value.data.slice(10)
+          data: value.data.slice(-10)
         };
       }
     }
